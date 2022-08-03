@@ -54,3 +54,7 @@ console.log(square2(10)())
 console.log((10))
 
 (function evaluateme(){console.log("this is test");return "hello"})
+(function(){
+    console.log("I Say Hello")
+    console.log("I Say Hello Again")
+})()
